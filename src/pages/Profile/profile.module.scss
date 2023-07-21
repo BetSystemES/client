@@ -1,0 +1,23 @@
+.profile_card {
+  background-color: var(--container);
+  color: var(--white);
+  height: 150px;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  .email {
+    font-size: 40px;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      color: var(--orange);
+    }
+  }
+  .id {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    color: var(--dark-white);
+  }
+}

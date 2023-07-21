@@ -1,0 +1,40 @@
+.outcome {
+  border-top: 1px solid var(--white);
+  color: var(--white);
+  margin-bottom: 40px;
+  .description {
+    background-color: var(--container);
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: var(--orange);
+  }
+  .coefficients {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2vw;
+  }
+
+  .coefficientsAdmin {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2vw;
+  }
+  .descriptionAdmin {
+    background-color: var(--container);
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    svg {
+      width: 35px;
+      height: auto;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+}

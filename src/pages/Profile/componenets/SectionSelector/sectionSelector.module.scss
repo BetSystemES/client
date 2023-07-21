@@ -1,0 +1,18 @@
+.sectionSelector {
+  display: flex;
+  padding: 20px 0px;
+  gap: 10px;
+  button {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    border: 0;
+    background-color: var(--orange);
+    color: var(--container);
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      background-color: var(--dark-orange);
+    }
+  }
+}

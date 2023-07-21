@@ -1,0 +1,64 @@
+.coefficient {
+  color: var(--white);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--container);
+  padding: 10px;
+  cursor: pointer;
+  &:hover {
+    background-color: var(--light-container);
+  }
+  .description {
+  }
+  .rate {
+    color: var(--orange);
+    font-size: 17px;
+  }
+}
+.coefficientAdmin {
+  color: var(--white);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--container);
+  align-items: center;
+  padding: 10px;
+  svg {
+    width: 35px;
+    height: auto;
+  }
+  button {
+    height: 60px;
+  }
+  &:hover {
+    background-color: var(--light-container);
+  }
+  input {
+    width: 100px;
+  }
+  select {
+    width: 150px;
+  }
+  .rate {
+    color: var(--orange);
+    font-size: 17px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .block {
+    cursor: pointer;
+    color: var(--red);
+    width: 25px;
+    height: auto;
+  }
+}
+.blocked {
+  cursor: not-allowed;
+  opacity: 0.8;
+  &:hover {
+    background-color: var(--container);
+  }
+}

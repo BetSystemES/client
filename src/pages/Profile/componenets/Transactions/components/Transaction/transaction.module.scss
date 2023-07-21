@@ -1,0 +1,18 @@
+.transaction {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  grid-gap: 2vw;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 8px;
+  color: var(--white);
+  padding: 10px 10px;
+  text-align: center;
+  background-color: var(--container);
+  .amountColorRed {
+    color: crimson;
+  }
+  .amountColorGreen {
+    color: green;
+  }
+}

@@ -1,0 +1,30 @@
+.sectionSelector {
+  display: flex;
+  padding: 20px 0px;
+  gap: 10px;
+  .depositIcon {
+    width: 40px;
+    height: auto;
+    color: var(--green);
+  }
+  .withdrawIcon {
+    width: 40px;
+    height: auto;
+    color: var(--red);
+  }
+  button {
+    display: flex;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid var(--white);
+    background-color: var(--container);
+    transition: all 0.3s ease-in-out;
+    color: var(--white);
+    &:hover {
+      background-color: var(--lighten-container) !important;
+      color: var(--orange) !important;
+      border: 1px solid var(--orange);
+    }
+  }
+}

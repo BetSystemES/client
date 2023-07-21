@@ -1,0 +1,19 @@
+.buttons {
+  display: flex;
+  flex-direction: column;
+  button {
+    width: 200px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 600;
+    border: 0;
+    background-color: var(--orange);
+    color: var(--container);
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      background-color: var(--dark-orange);
+    }
+  }
+}

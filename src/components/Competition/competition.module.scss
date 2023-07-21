@@ -1,0 +1,63 @@
+.competition {
+  svg {
+    width: 35px;
+    height: auto;
+  }
+  .updateAdmin {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+  }
+  .adminInfo {
+    background-color: var(--container);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 20px;
+    padding: 10px;
+    color: var(--white);
+    p {
+      font-size: 14px;
+    }
+  }
+  .info {
+    border: 1px solid var(--dark-white);
+    position: relative;
+    background-color: var(--container);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: var(--white);
+    height: 200px;
+    margin-bottom: 20px;
+    .teams {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 2vw;
+      justify-items: center;
+      .vs {
+        font-weight: 800;
+      }
+      .teamName {
+        font-size: 18px;
+      }
+    }
+    .score {
+    }
+    .scoreAdmin {
+      display: flex;
+      gap: 20px;
+      .inputAdmin {
+        width: 100px;
+      }
+    }
+  }
+  .startTime {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+}

@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--container);
+  .cardContainer {
+    height: 400px;
+    position: relative;
+    img {
+      height: 100%;
+    }
+    .card_number {
+      font-size: 18px;
+      top: 250px;
+      left: 60px;
+      position: absolute;
+      width: 250px;
+    }
+    .cvv {
+      font-size: 18px;
+      position: absolute;
+      top: 250px;
+      left: 340px;
+      width: 60px;
+    }
+  }
+  .form {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    svg {
+      width: 30px;
+      height: auto;
+    }
+    button {
+      height: 40px;
+    }
+    input {
+      width: 350px;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.bet {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 2vw;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 8px;
+  color: var(--white);
+  padding: 10px 10px;
+  text-align: center;
+  background-color: var(--container);
+}

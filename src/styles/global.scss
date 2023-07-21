@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  display: flex;
+  justify-content: center;
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: var(--background);
+}
+
+:root {
+  --dark-orange: #db8700;
+  --orange: #fca311;
+  --background: #131417;
+  --container: #181a1e;
+  --light-container: #212226;
+  --lighten-container: #393a41;
+  --white: #fff;
+  --dark-white: rgb(135, 135, 135);
+  --red: crimson;
+  --green: green;
+}
+
+input {
+  background-color: var(--container);
+  color: var(--white);
+  font-size: 16px;
+  padding: 5px 10px;
+  outline: none;
+  border: 1px solid;
+  border-color: var(--orange);
+}
+
+button {
+  cursor: pointer;
+  width: 150px;
+  font-size: 17px;
+  font-weight: 600;
+  border: 1px solid var(--white);
+  background-color: var(--container);
+  color: var(--orange);
+  transition: all 0.3s ease-in-out;
+  padding: 5px;
+  &:hover {
+    background-color: var(--dark-orange) !important;
+    color: var(--white) !important;
+  }
+}
+
+select {
+  background-color: var(--container);
+  color: var(--white);
+  font-size: 16px;
+  padding: 5px 10px;
+  outline: none;
+  border: 1px solid;
+  border-color: var(--orange);
+}
+
+option {
+  background-color: var(--container);
+  color: var(--white);
+  font-size: 16px;
+  padding: 5px 10px;
+  outline: none;
+  border: 1px solid;
+  border-color: var(--orange);
+}

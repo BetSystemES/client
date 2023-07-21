@@ -1,0 +1,91 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--container);
+  width: 100vw;
+  height: 80px;
+  .left {
+    display: flex;
+    .logo {
+      font-size: 30px;
+      color: var(--orange);
+      margin-left: 30px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        color: var(--white);
+      }
+    }
+  }
+  .center {
+    display: flex;
+    gap: 15px;
+    p {
+      color: var(--white);
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        color: var(--orange);
+      }
+    }
+  }
+  .right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 20px;
+    .adminPanel {
+      color: var(--white);
+      cursor: pointer;
+    }
+    .refresh {
+      color: var(--white);
+      cursor: pointer;
+      width: 20px;
+      height: auto;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        color: var(--orange);
+      }
+    }
+    svg {
+      width: 20px;
+      height: auto;
+    }
+    .balance {
+      width: 100px;
+      font-size: 17px;
+      font-weight: 600;
+      color: var(--white);
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        color: var(--orange);
+      }
+    }
+    .profile {
+      color: var(--white);
+      cursor: pointer;
+      width: 30px;
+      height: auto;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        color: var(--orange);
+      }
+    }
+    button {
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: 600;
+      border: 0;
+      background-color: var(--orange);
+      color: var(--container);
+      padding: 10px;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        background-color: var(--dark-orange);
+      }
+    }
+  }
+}

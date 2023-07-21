@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: auto;
+  .form {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    color: var(--white);
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    flex-direction: column;
+    background-color: var(--container);
+    .register {
+      font-size: 25px;
+      font-weight: 800px;
+      color: var(--orange);
+      margin-bottom: 20px;
+    }
+    button {
+      font-size: 18px;
+      border: 1px solid var(--orange);
+    }
+    input {
+      border: 1px solid var(--dark-white);
+    }
+  }
+}
